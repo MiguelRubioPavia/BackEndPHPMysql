@@ -1,0 +1,12 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    # Activar RewriteEngine
+    RewriteEngine On
+    RewriteBase /BackEndPHPMysql/api/
+    RewriteCond %{SCRIPT_FILENAME} !-f
+    #RewriteRule ^(.*)/([0-9]+)$ $1.php?id=$2 [L,R=301]
+    #RewriteRule ^usuario$ usuario_route.php [L,R=301]
+    #RewriteRule ^usuario/([0-9]+)$ usuario_route.php?id=$2 [L,R=301]
+    
+</IfModule>
