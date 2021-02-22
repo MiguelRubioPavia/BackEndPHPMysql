@@ -21,7 +21,7 @@ http://localhost/BackEndPHPMysql/api/usuario_route.php
 http://localhost/BackEndPHPMysql/api/usuario_route.php/1
 
 Cosas a tener en cuenta en la configuración de esta api es la falta de un archivo de configuración en el cual se añaden
-los datos sensibles para el acceso a la base de datos.
+los datos sensibles para el acceso a la base de datos y la base de datos esta solo tiene una tabla con dos columnas id y nombre.
 
 La estructura del archivo (db.const.php) es la siguiente:
 
