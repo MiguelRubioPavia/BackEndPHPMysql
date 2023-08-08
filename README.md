@@ -42,5 +42,3 @@ http://localhost/BackEndPHPMysql/api/usuario
 
 # Chikorita
 ![Chikorita](https://assets.pokemon.com/assets/cms2/img/pokedex/full/152.png)
-
-- [] Prueba
